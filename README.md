@@ -1,3 +1,15 @@
+
+
+Next.js + tailwind
+
+Pour installer Tailwind, voir ici https://tailwindcss.com/docs/guides/nextjs
+
+Projet inspiré par le tuto youtube https://www.youtube.com/watch?v=I0BOUiFe9WY&ab_channel=LamaDev
+
+
+=============================================================================================
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
