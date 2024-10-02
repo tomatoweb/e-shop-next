@@ -2,7 +2,7 @@ import Add from "@/components/Add"
 import CustomizeProduct from "@/components/CustomizeProduct"
 import ProductImages from "@/components/ProductImages"
 
-const SinglePage = () => {
+const SinglePage = ({ params }: { params: { slug: string } }) => {
   return (
     <div className='px-4 md:px4 lg:px-8 xl:px-16 2xl:px-64 relative flex flex-col lg:flex-row gap-16'>
         {/* IMG */}
