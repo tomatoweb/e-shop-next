@@ -10,7 +10,7 @@ const Navbar = () => {
         {/* MOBILE */}
         <div className="h-full flex items-center justify-between md:hidden">
             <Link href="/">
-						<Image src="/eshop-logo.jpg" alt="" height={100} width={100} />
+						<Image src="/eshop-logo.jpg" alt="" height={80} width={80} />
             </Link>
             <Menu/>
         </div>

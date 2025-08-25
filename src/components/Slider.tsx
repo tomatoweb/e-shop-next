@@ -37,14 +37,14 @@ const Slider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev === slides.length-1 ? 0 : prev + 1) );
-    }, 3000);
+    }, 2000);
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div className='h-[calc(100vh-80px)] overflow-hidden'>
       {/* WRAPPER */}
-      <div className='w-max h-[85%] flex transition-all ease-in-out duration-1000'
+      <div className='w-max h-full flex transition-all ease-in-out duration-1000'
             style={{transform: `translateX(-${current*100}vw)`}}
       >
         {slides.map(slide=>(
@@ -65,7 +65,7 @@ const Slider = () => {
         ))}
       </div>
       {/* DOTS SELECT */}
-      <div className='mt-4 flex gap-4 w-full justify-center'>
+      <div className='absolute -mt-14 flex gap-4 w-full justify-center'>
         {slides.map((slide, index) => (
         <div className={`w-3 h-3 rounded-full ring-1 ring-gray-500 cursor-pointer flex items-center justify-center ${
           current === index ? "scale-150" : ""}`} 
