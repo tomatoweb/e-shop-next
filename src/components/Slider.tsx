@@ -44,7 +44,7 @@ const Slider = () => {
   return (
     <div className='h-[calc(100vh-80px)] overflow-hidden'>
       {/* WRAPPER */}
-      <div className='w-max h-[92%] flex transition-all ease-in-out duration-1000'
+      <div className='w-max h-[85%] flex transition-all ease-in-out duration-1000'
             style={{transform: `translateX(-${current*100}vw)`}}
       >
         {slides.map(slide=>(
