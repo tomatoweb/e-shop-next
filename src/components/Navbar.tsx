@@ -10,7 +10,7 @@ const Navbar = () => {
         {/* MOBILE */}
         <div className="h-full flex items-center justify-between md:hidden">
             <Link href="/">
-                <div className="text-2xl tracking-wide">DOTdEV</div>
+						<Image src="/eshop-logo.jpg" alt="" height={100} width={100} />
             </Link>
             <Menu/>
         </div>
