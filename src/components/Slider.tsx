@@ -65,7 +65,7 @@ const Slider = () => {
         ))}
       </div>
       {/* DOTS SELECT */}
-      <div className='absolute -mt-14 flex gap-4 w-full justify-center'>
+      <div className='absolute -mt-20 flex gap-4 w-full justify-center'>
         {slides.map((slide, index) => (
         <div className={`w-3 h-3 rounded-full ring-1 ring-gray-500 cursor-pointer flex items-center justify-center ${
           current === index ? "scale-150" : ""}`} 
