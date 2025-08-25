@@ -15,23 +15,15 @@ const Navbar = () => {
             <Menu/>
         </div>
         {/* BIGGER SCREENS */}
-        <div className="hidden md:flex items-center justify-center h-full gap-8">
+        <div className="hidden md:flex items-center justify-between h-full">
             {/* LEFT */}
-            <div className="flex w-1/3 xl:w-1/2 justify-center gap-12">
-                <Link href="/" className="flex gap-3 items-center">
-                    <Image src="/logo.png" alt="" height={24} width={24} />
-                    <div className="text-2xl tracking-wide">DOTDEV</div>
-                </Link>
-                <div className="hidden xl:flex items-center gap-4">
-                    <Link href="/">HomePage</Link>
-                    <Link href="/">Shop</Link>
-                    <Link href="/">Deals</Link>
-                    <Link href="/">About</Link>
-                    <Link href="/">Contact</Link>
-                </div>                
+            <div className="flex justify-center">
+                <Link href="/" className="flex">
+                    <Image src="/eshop-logo.jpg" alt="" height={100} width={100} />
+                </Link>              
             </div>
             {/* RIGHT */}
-            <div className="flex w-2/3 xl:w-1/2 justify-between items-center gap-8">
+            <div className="flex grow ml-20 justify-between items-center gap-8">
                 <SearchBar/>
                 <NavIcons/>
             </div>

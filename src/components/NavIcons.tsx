@@ -28,7 +28,7 @@ const NavIcons = () => {
   }
 
   return (
-    <div className="flex gap-4 xl:gap-6 relative">
+    <div className="flex gap-4 xl:gap-6 relative mr-4">
         <Image onClick={handleProfile} alt="" src="/profile.png" width={22} height={22} className="cursor-pointer" />
         {isProfileOpen && (
         <div className="absolute top-8 text-sm p-4 rounded-md shadow-[0_3px_10px_rgb(0,0,0,0.2)] z-20">
